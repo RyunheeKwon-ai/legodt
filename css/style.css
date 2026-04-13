@@ -652,24 +652,24 @@ header i {
 
 /* bottom1 */
 .con3 .bottom li:nth-child(1) .color div:nth-child(1) {
-  background: url(/img/color_con3_4_1.png) no-repeat center / cover;
+  background: url(../img/color_con3_4_1.png) no-repeat center / cover;
 }
 .con3 .bottom li:nth-child(1) .color div:nth-child(2) {
   background-color: #fef18c;
 }
 .con3 .bottom li:nth-child(1) .color div:nth-child(3) {
-  background: url(/img/color_con3_4_3.png) no-repeat center / cover;
+  background: url(../img/color_con3_4_3.png) no-repeat center / cover;
 }
 
 /* bottom2 */
 .con3 .bottom li:nth-child(2) .color div:nth-child(1) {
-  background: url(/img/color_con3_5_1.png) no-repeat center / cover;
+  background: url(../img/color_con3_5_1.png) no-repeat center / cover;
 }
 .con3 .bottom li:nth-child(2) .color div:nth-child(2) {
-  background: url(/img/color_con3_5_2.png) no-repeat center / cover;
+  background: url(../img/color_con3_5_2.png) no-repeat center / cover;
 }
 .con3 .bottom li:nth-child(2) .color div:nth-child(3) {
-  background: url(/img/color_con3_5_3.png) no-repeat center / cover;
+  background: url(../img/color_con3_5_3.png) no-repeat center / cover;
 }
 .con3 .bottom li:nth-child(2) .color div:nth-child(4) {
   background-color: #3333de;
