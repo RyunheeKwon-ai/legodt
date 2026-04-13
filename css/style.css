@@ -177,13 +177,13 @@ header i {
   z-index: 10;
 }
 #visual .first .img {
-  background-image: url(/img/slide_11.jpg);
+  background-image: url(../img/slide_11.jpg);
 }
 #visual .first .txt {
   background-color: #c6dd76;
 }
 #visual .second .img {
-  background-image: url(/img/slide_111.jpg);
+  background-image: url(../img/slide_111.jpg);
 }
 #visual .second .txt {
   background-color: #f5f2eb;
@@ -326,10 +326,10 @@ header i {
   transform: translateY(0);
 }
 .con2 .top .bg {
-  background-image: url(/img/con2_top.png);
+  background-image: url(../img/con2_top.png);
 }
 .con2 .bottom .bg {
-  background-image: url(/img/con2_bottom.png);
+  background-image: url(../img/con2_bottom.png);
 }
 .con2 .chat {
   display: flex;
@@ -347,7 +347,7 @@ header i {
   width: 50px;
   min-width: 50px;
   height: 50px;
-  background-image: url(/img/con2_bear.png);
+  background-image: url(../img/con);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
