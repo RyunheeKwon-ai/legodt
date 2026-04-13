@@ -1442,9 +1442,12 @@ footer .sns a {
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    align-items: center;
   }
   .con4 .main .slide .txt h3 {
     font-size: 1.2rem;
+    text-align: center;
   }
   .con4 .main .slide .txt p {
     display: none;
