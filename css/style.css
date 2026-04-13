@@ -564,7 +564,6 @@ header i {
 .con3 .more a {
   display: inline-block;
   width: 20%;
-  padding: 0.5rem 3rem;
   border: 2px solid #fff;
   border-radius: 30px;
   border-radius: 25px;
@@ -759,18 +758,18 @@ header i {
 .con4 .sub {
   width: 70%;
   height: 100px;
-  display: flex;
   margin: 30px auto;
 }
 .con4 .sub .img {
   width: 200px;
+  min-width: 130px;
   height: 200px;
   background: url(../img/tum-1.webp) no-repeat center / cover;
   margin-top: -80px;
-  margin-left: 120px;
   animation: con4 2s infinite;
 }
 .con4 .sub span {
+  min-width: 230px;
   font-size: clamp(0.8rem, 3vw, 1.2rem);
 }
 /* main */
@@ -940,7 +939,6 @@ header i {
 .con5 .more a {
   display: inline-block;
   width: 90%;
-  padding: 0.5rem 3rem;
   border: 2px solid #fff;
   border-radius: 30px;
   border-radius: 25px;
@@ -1127,8 +1125,14 @@ footer .sns a {
   .con3 li .image {
     height: 400px;
   }
+  .con3 .more a {
+    padding: 0.5rem 3rem;
+  }
 
   /* con4 */
+  .con4 .sub {
+    display: flex;
+  }
   .con4 .main .slide {
     width: 200%;
     transform: translateX(-25%);
@@ -1162,6 +1166,9 @@ footer .sns a {
   }
   .con5 .box ul {
     margin-bottom: 3rem;
+  }
+  .con5 .more a {
+    padding: 0.5rem 3rem;
   }
 
   /* footer */
@@ -1258,8 +1265,14 @@ footer .sns a {
   .con3 li .image {
     height: 400px;
   }
+  .con3 .more a {
+    padding: 0.5rem 1rem;
+  }
 
   /* con4 */
+  .con4 .sub {
+    display: flex;
+  }
   .con4 .main .slide {
     width: 250%;
     transform: translateX(-30%);
@@ -1293,6 +1306,9 @@ footer .sns a {
   }
   .con5 .box ul {
     margin-bottom: 3rem;
+  }
+  .con5 .more a {
+    padding: 0.5rem 1.5rem;
   }
 
   /* footer */
@@ -1397,8 +1413,15 @@ footer .sns a {
   .con3 li .image {
     height: 300px;
   }
+  .con3 .more a {
+    width: 70%;
+    padding: 1rem 1rem;
+  }
 
   /* con4 */
+  .con4 .sub {
+    display: none;
+  }
   .con4 .main .slide {
     width: 400%;
     transform: translateX(-37.5%);
@@ -1424,7 +1447,7 @@ footer .sns a {
     font-size: 1.2rem;
   }
   .con4 .main .slide .txt p {
-    font-size: 0.7rem;
+    display: none;
   }
   .con4 .bar {
     width: 70%;
@@ -1441,6 +1464,9 @@ footer .sns a {
   }
   .con5 .box ul .big {
     width: 100%;
+  }
+  .con5 .more a {
+    padding: 0.5rem 1.5rem;
   }
 
   /* footer */
