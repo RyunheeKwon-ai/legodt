@@ -150,11 +150,13 @@ $(function () {
   $(".con4 .arrow .prev").on("click", function () {
     clearInterval(stop);
     prev();
+    con04();
   });
 
   $(".con4 .arrow .next").on("click", function () {
     clearInterval(stop);
     next();
+    con04();
   });
 
   con04();
