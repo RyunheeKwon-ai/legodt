@@ -126,7 +126,7 @@ $(function () {
 
   // con4
   let stop;
-  let width = $(".con4 .slide li").width();
+  let width = $(".con4 .slide li").width() + 32;
 
   function next() {
     $(".con4 .slide")

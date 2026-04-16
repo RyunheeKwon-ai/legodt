@@ -743,7 +743,7 @@ header i {
 .con4 {
   width: 100%;
   background-color: #cddeff;
-  padding: 5rem;
+  padding: 10rem;
   overflow: hidden;
 }
 /* h2 */
@@ -774,15 +774,18 @@ header i {
 }
 /* main */
 .con4 .main {
-  width: 100%;
+  width: 700px;
   position: relative;
+  margin: 0px auto;
 }
 .con4 .main .slide {
+  width: 500%;
   display: flex;
   gap: 2rem;
 }
 .con4 .main .slide li {
   width: calc(100% / 5);
+  flex-shrink: 0;
   background-color: #f8f7f4;
   border: 2px solid #214380;
   border-radius: 20px;
@@ -815,6 +818,7 @@ header i {
 }
 /* arrow */
 .con4 .arrow {
+  width: calc(100% + 3rem);
   position: absolute;
   display: flex;
   justify-content: space-between;
@@ -835,25 +839,6 @@ header i {
   border: 2px solid #214380;
 }
 
-/* con4 bar */
-.con4 .bar {
-  height: 5px;
-  margin: 3rem auto;
-  display: flex;
-}
-.con4 .bar > div {
-  width: calc(100% / 5);
-  background-color: #21428057;
-  position: relative;
-}
-.con4 .bar .color {
-  width: 0%;
-  height: 100%;
-  background-color: #214380;
-  position: absolute;
-  left: 0;
-  top: 0;
-}
 /* keyframe */
 
 @keyframes con4 {
@@ -1146,12 +1131,13 @@ footer .sns a {
   .con4 .sub {
     display: flex;
   }
+  .con4 .main {
+    width: 700px;
+  }
   .con4 .main .slide {
-    width: 200%;
-    transform: translateX(-25%);
+    transform: translateX(-732px);
   }
   .con4 .arrow {
-    width: calc((200% + 8rem) / 5);
   }
   .con4 .main .slide li .img {
     width: calc(100% / 2);
@@ -1288,12 +1274,11 @@ footer .sns a {
   .con4 .sub {
     display: flex;
   }
-  .con4 .main .slide {
-    width: 250%;
-    transform: translateX(-30%);
+  .con4 .main {
+    width: 500px;
   }
-  .con4 .arrow {
-    width: calc((250% + 8rem) / 5);
+  .con4 .main .slide {
+    transform: translateX(-532px);
   }
   .con4 .main .slide li .img {
     width: calc(100% / 2);
@@ -1438,12 +1423,11 @@ footer .sns a {
   .con4 .sub {
     display: none;
   }
-  .con4 .main .slide {
-    width: 400%;
-    transform: translateX(-37.5%);
+  .con4 .main {
+    width: 300px;
   }
-  .con4 .arrow {
-    width: calc((400% + 8rem) / 5);
+  .con4 .main .slide {
+    transform: translateX(-332px);
   }
   .con4 .main .slide li {
     position: relative;
